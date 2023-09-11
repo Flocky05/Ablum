@@ -9,6 +9,7 @@ import card1 from "../../assets/images/body/footer-card-1.png"
 import card2 from "../../assets/images/body/footer-card-2.png"
 import card3 from "../../assets/images/body/footer-card-3.png"
 import card4 from "../../assets/images/body/footer-card-4.png"
+import upArrow from "../../assets/images/body/upArrow.png"
 
 
 const Footer = () => {
@@ -70,6 +71,7 @@ const Footer = () => {
                         <img src={card4} alt="" />
                     </div>
                 </div>
+                <a className="bg-orange-600 w-16 h-8 text-right" href="/"><img className="invert" src={upArrow} alt="" /></a>
             </div>
     );
 };
