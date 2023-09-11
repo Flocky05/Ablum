@@ -3,13 +3,13 @@
       "id": "6383312564f5a4e7c9d6ed8d",
       "name": "Onigiri",
       "img": "../src/assets/images/body/popular-onigiri.png",
-      "body": "aldjfoijho",
+      "body": "aldjfoijhoasdfa",
       "price": "$10.99"
     },
     {
       "id": "6383312564f5a4e7c9d6ed8d",
       "name": "Spring Rolls",
-      "img": "../src/assets/images/body/popular-sushi-rolls.png",
+      "img": "../src/assets/images/body/recently-salmon-sushi.png",
       "body": "kjdjkfahskdjh",
       "price": "$15.99"
     },
@@ -17,28 +17,28 @@
       "id": "6383312564f5a4e7c9d6ed8d",
       "name": "Sushi Rolls",
       "img": "../src/assets/images/body/newsletter-sushi.png",
-      "body": "kjfdsaj",
+      "body": "kjfdsajjauriopuj",
       "price": "$9.5"
     },
     {
       "id": "6383312564f5a4e7c9d6ed8d",
-      "name": "Winters",
-      "img": "../src/assets/images/body/home-sushi-rolls.png",
+      "name": "Wintersadfasd",
+      "img": "../src/assets/images/body/about-sushi.png",
       "body": "jaslkjfh",
       "price": "$45"
     },
     {
       "id": "6383312564f5a4e7c9d6ed8d",
       "name": "Neva",
-      "img": "../src/assets/images/body/about-sushi.png",
-      "body": "asdfadf",
+      "img": "../src/assets/images/body/about-sushi-title.png",
+      "body": "asdfadfasdfadf",
       "price": "$56"
     },
     {
       "id": "6383312564f5a4e7c9d6ed8d",
       "name": "Jewel",
       "img": "../src/assets/images/body/home-sushi-rolls.png",
-      "body": "jaskdjf",
+      "body": "jaskdjfasfdasd",
       "price": "$9.9"
     }
   ]
