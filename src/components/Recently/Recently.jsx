@@ -15,7 +15,7 @@ const Recently = () => {
                 <p className="text-lg my-8">Take a look at whats's new.And dont deprive yourselft of a good meal enjoy and be happy</p>
                 <div className="flex bg-orange-600 px-4 py-2 rounded-full text-white items-center w-44">
                     <a className=" " href="/">Order Now</a>
-                    <img className="invert" src={arrow} alt="" />
+                    <img className="invert w-5" src={arrow} alt="" />
                 </div>
             </div>
             <img className="px-20" src={img} alt="" />
