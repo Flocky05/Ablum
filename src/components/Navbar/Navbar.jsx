@@ -1,5 +1,5 @@
 
-import img from "../../assets/images/logo.png"
+import img from "../../assets/images/body/logo.png"
 import moon from "../../assets/images/navbar/moon.png"
 const Navbar = () => {
     return (
