@@ -14,7 +14,7 @@ import upArrow from "../../assets/images/body/upArrow.png"
 
 const Footer = () => {
     return (
-        <div className="bg-red-100 shadow-xl">
+        <div className="bg-red-100 dark:bg-white  shadow-xl">
             <div className="grid grid-cols-5 p-20">
                 <div>
                     <div className="flex items-center">
