@@ -3,7 +3,7 @@ import food from "../../assets/images/body/home-sushi-title.png"
 import food2 from "../../assets/images/body/home-sushi-rolls.png"
 const Home = () => {
     return (
-        <div className="grid grid-cols-2 p-20 justify-items-center">
+        <div className="grid grid-cols-1 lg:grid-cols-2 p-10 lg:p-20 justify-items-center">
             <div className="p-20">
                 <h2 className="text-4xl font-bold">Enjoy Delicious</h2>
                 <div className="flex">
