@@ -4,11 +4,11 @@ import food2 from "../../assets/images/body/about-sushi-title.png"
 
 const AboutUs = () => {
     return (
-        <div className="grid grid-cols-2 p-20 justify-items-center">
+        <div className="grid grid-cols-1 lg:grid-cols-2 p-10 md:p-16 lg:p-20 justify-items-center">
             <div>
-                <img className="p-10" src={food} alt="" />
+                <img className=" p-5 lg:p-10" src={food} alt="" />
             </div>
-            <div className="mt-32 p-10">
+            <div className="mt-10 lg:mt-32 p-10">
                 <h4 className="text-orange-500 italic text-2xl ">About us</h4>
                 <h3 className="text-2xl font-bold">We Provide</h3>
                 <div className="flex">
