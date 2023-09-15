@@ -4,7 +4,7 @@ import leaf from "../../assets/images/body/spinach-leaf.png"
 import arrow from "../../assets/images/body/icons8-arrow-48.png"
 const Recently = () => {
     return (
-        <div className="grid grid-cols-2 m-20">
+        <div className="grid grid-cols-1 lg:grid-cols-2 m-10 lg:m-20">
                 <div className="m-20 text-left">
                 <h3 className=" text-3xl font-bold text-orange-600">Recently Added</h3>
                 <h3 className="text-2xl font-bold ">Sushi Samurai</h3>
@@ -18,7 +18,7 @@ const Recently = () => {
                     <img className="invert w-5" src={arrow} alt="" />
                 </div>
             </div>
-            <img className="px-20" src={img} alt="" />
+            <img className="px-10 lg:px-20" src={img} alt="" />
         </div>
     );
 };
