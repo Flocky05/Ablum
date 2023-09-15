@@ -17,7 +17,7 @@ const Footer = () => {
         <div className="bg-red-100 dark:bg-white  shadow-xl text-center lg:text-start">
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 p-10 lg:p-20">
                 <div>
-                    <div className="flex items-center">
+                    <div className="flex items-center justify-center lg:justify-start">
                         <img className="w-10 h-10" src={logo} alt="" />
                         <a className="hover:text-orange-400 text-xl font-semibold" href="/">Ablum</a>
                     </div>
