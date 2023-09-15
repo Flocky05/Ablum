@@ -14,8 +14,8 @@ import upArrow from "../../assets/images/body/upArrow.png"
 
 const Footer = () => {
     return (
-        <div className="bg-red-100 dark:bg-white  shadow-xl">
-            <div className="grid grid-cols-5 p-20">
+        <div className="bg-red-100 dark:bg-white  shadow-xl text-center lg:text-start">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 p-10 lg:p-20">
                 <div>
                     <div className="flex items-center">
                         <img className="w-10 h-10" src={logo} alt="" />
@@ -24,7 +24,7 @@ const Footer = () => {
                     <p>Food for the body is not enough .There must be food for the soul.</p>
                     <img className="h-14 w-8 mt-12 ml-20" src={leaf} alt="" />
                 </div>
-                <div>
+                <div className=" p-5 lg:p-0">
                     <h3 className="text-xl font-semibold">Main Menu</h3>
                     <div className="text-lg flex flex-col">
                         <a href="/">About</a>
@@ -35,7 +35,7 @@ const Footer = () => {
                     <img src="" alt="" />
                 </div>
                 
-                    <div>
+                    <div className=" p-5 lg:p-0">
                         <h3 className="text-xl font-semibold">Information</h3>
                         <div className="text-lg flex flex-col">
                             <a href="/">Contract</a>
@@ -45,15 +45,15 @@ const Footer = () => {
                         </div>
                     </div>
            
-                    <div>
+                    <div className=" p-5 lg:p-0">
                         <h3 className="text-xl font-semibold">Address</h3>
                         <p>Faridpur,Niltuli</p>
                         <p>Lima House,1278/A</p>
                         <h5>9:00Am - 11:00Pm</h5>
                     </div>
-                    <div>
+                    <div className=" p-5 lg:p-0">
                         <h3 className="text-xl font-semibold">Social</h3>
-                        <div className="flex gap-5">
+                        <div className="flex gap-5 justify-center lg:justify-start">
                             <img className="w-8 h-8" src={facebook} alt="" />
                             <img className="w-8 h-8" src={instragram} alt="" />
                             <img className="w-8 h-8" src={twiter} alt="" />
@@ -62,16 +62,16 @@ const Footer = () => {
                         <img className="h-10 w-8 mt-8 ml-10" src={onion} alt="" />
                     </div>
                 </div>
-                <div className="flex justify-between p-20">
+                <div className="lg:flex justify-between p-20 ">
                     <p>@ copyright Ablum All rights are Ablum</p>
-                    <div className="flex gap-3">
-                        <img className="" src={card1} alt="" />
-                        <img src={card2} alt="" />
-                        <img src={card3} alt="" />
-                        <img src={card4} alt="" />
+                    <div className="flex gap-3 justify-center p-3 lg:p-2">
+                        <img className="p-2" src={card1} alt="" />
+                        <img className="p-2" src={card2} alt="" />
+                        <img className="p-2" src={card3} alt="" />
+                        <img className="p-2" src={card4} alt="" />
                     </div>
                 </div>
-                <a className="bg-orange-600 w-16 h-8 text-right" href="/"><img className="invert" src={upArrow} alt="" /></a>
+                <a className="bg-orange-600 w-16 h-8 lg:text-right" href="/"><img className="invert" src={upArrow} alt="" /></a>
             </div>
     );
 };
